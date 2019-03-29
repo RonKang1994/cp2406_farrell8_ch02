@@ -10,6 +10,7 @@ public class FixDebugTwo4
          JOptionPane.INFORMATION_MESSAGE);*/
       costString = JOptionPane.showInputDialog(null, "Purchases",
          JOptionPane.INFORMATION_MESSAGE);
+      //cost = Integer.parseInt(costString);
       cost = Double.parseDouble(costString);
       JOptionPane.showMessageDialog(null,"With " + tax * 100 +
          "% tax,  purchase  is $" + (cost - cost * tax));
